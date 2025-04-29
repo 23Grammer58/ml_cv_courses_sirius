@@ -1,0 +1,58 @@
+# Игнорировать директорию с 4 ДЗ
+ДЗ_4/
+hw_4/
+дз_4/
+homework_4/
+
+# Игнорировать типичные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Виртуальные окружения
+venv/
+ENV/
+.env
+.venv
+env/
+
+# Игнорировать данные и веса моделей
+*.h5
+*.pth
+*.pt
+*.onnx
+*.pb
+*.caffemodel
+*.weights
+datasets/
+checkpoints/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db 
